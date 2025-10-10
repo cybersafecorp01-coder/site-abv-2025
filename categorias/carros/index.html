@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Leilão Premium - Carros</title>
+    <title>Leilão Premium - Os Melhores Leilões Online do Brasil</title>
     <link rel="canonical" href="https://leilaopremium.com.br">
 
     <!-- Open Graph -->
@@ -17,7 +17,7 @@
         rel="stylesheet">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../../../styles.css">
 
     <!-- Lucide Icons -->
     <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
@@ -70,37 +70,69 @@
         </div>
     </header>
 
-    <main>
-        <!-- Hero Section -->
-        <section id="inicio" class="hero">
-            <div class="hero-background"></div>
-            <div class="hero-overlay"></div>
-
-            <div class="container hero-content">
-                <div class="hero-text">
-                    <h1 class="hero-title fade-in-up">
-                        Participe dos
-                        <span class="text-gold">Melhores Leilões</span>
-                        Online
-                    </h1>
-
-                    <p class="hero-subtitle fade-in-up">
-                        Descubra produtos únicos, arte exclusiva e veículos de luxo em nossa plataforma premium de
-                        leilões
+            <!-- Categories Section -->
+        <section id="categorias" class="categories">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Categorias em Destaque</h2>
+                    <p class="section-subtitle">
+                        Explore nossa seleção cuidadosa de categorias premium com produtos excepcionais
                     </p>
-
-
                 </div>
-            </div>
 
-            <!-- Scroll Indicator -->
-            <div class="scroll-indicator">
-                <div class="scroll-mouse">
-                    <div class="scroll-wheel"></div>
+                <div class="categories-grid">
+                    <div class="category-card card-hover">
+                        <div class="category-icon">
+                            <i data-lucide="car"></i>
+                        </div>
+                        <h3 class="category-title">Carros</h3>
+                        <p class="category-description">Veículos de luxo e clássicos</p>
+                    </div>
+
+                    <div class="category-card card-hover">
+                        <div class="category-icon">
+                            <i data-lucide="home"></i>
+                        </div>
+                        <h3 class="category-title">Imóveis</h3>
+                        <p class="category-description">Propriedades exclusivas</p>
+                    </div>
+
+                    <div class="category-card card-hover">
+                        <div class="category-icon">
+                            <i data-lucide="car"></i>
+                        </div>
+                        <h3 class="category-title">Moto</h3>
+                        <p class="category-description">Peças únicas e históricas</p>
+                    </div>
+
+                    <div class="category-card card-hover">
+                        <div class="category-icon">
+                            <i data-lucide="smartphone"></i>
+                        </div>
+                        <h3 class="category-title">Tecnologia</h3>
+                        <p class="category-description">Dispositivos e gadgets</p>
+                    </div>
+
+                    <div class="category-card card-hover">
+                        <div class="category-icon">
+                            <i data-lucide="truck"></i>
+                        </div>
+                        <h3 class="category-title">Caminhão</h3>
+                        <p class="category-description">Peças únicas e históricas</p>
+                    </div>
+
+                    <div class="category-card card-hover">
+                        <div class="category-icon">
+                            <i data-lucide="package"></i>
+                        </div>
+                        <h3 class="category-title">Outros</h3>
+                        <p class="category-description">Diversos produtos premium</p>
+                    </div>
                 </div>
             </div>
         </section>
 
+    <main>
         <!-- Featured Lots -->
         <section class="auction-products">
             <div class="container">
@@ -115,273 +147,6 @@
                     <!-- Featured lots will be loaded by JavaScript -->
                 </div>
 
-            </div>
-        </section>
-
-        <!-- Categories Section -->
-        <section id="categorias" class="categories">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Categorias em Destaque</h2>
-                    <p class="section-subtitle">
-                        Explore nossa seleção cuidadosa de categorias premium com produtos excepcionais
-                    </p>
-                </div>
-
-                <div class="categories-grid">
-                    <a href="categorias/carros/" class="category-card card-hover">
-                        <div class="category-icon">
-                            <i data-lucide="car"></i>
-                        </div>
-                        <h3 class="category-title">Carros</h3>
-                        <p class="category-description">Veículos de luxo e clássicos</p>
-                    </a>
-
-                    <a href="categorias/moveis/" class="category-card card-hover">
-                        <div class="category-icon">
-                            <i data-lucide="home"></i>
-                        </div>
-                        <h3 class="category-title">Imóveis</h3>
-                        <p class="category-description">Propriedades exclusivas</p>
-                    </a>
-
-                    <a href="categorias/motos/" class="category-card card-hover">
-                        <div class="category-icon">
-                            <i data-lucide="car"></i>
-                        </div>
-                        <h3 class="category-title">Moto</h3>
-                        <p class="category-description">Peças únicas e históricas</p>
-                    </a>
-
-                    <a href="categorias/tecnologia/" class="category-card card-hover">
-                        <div class="category-icon">
-                            <i data-lucide="smartphone"></i>
-                        </div>
-                        <h3 class="category-title">Tecnologia</h3>
-                        <p class="category-description">Dispositivos e gadgets</p>
-                    </a>
-
-                    <a href="categorias/caminhao/" class="category-card card-hover">
-                        <div class="category-icon">
-                            <i data-lucide="truck"></i>
-                        </div>
-                        <h3 class="category-title">Caminhão</h3>
-                        <p class="category-description">Peças únicas e históricas</p>
-                    </a>
-
-                    <a href="categorias/outros/" class="category-card card-hover">
-                        <div class="category-icon">
-                            <i data-lucide="package"></i>
-                        </div>
-                        <h3 class="category-title">Outros</h3>
-                        <p class="category-description">Diversos produtos premium</p>
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <!-- Auction Products -->
-        <section class="auction-products">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Leilões em Andamento</h2>
-                    <p class="section-subtitle">
-                        Não perca a oportunidade de dar seu lance nos produtos mais exclusivos
-                    </p>
-                </div>
-
-                <div class="products-grid" id="productsGrid">
-                    <!-- Products will be loaded by JavaScript -->
-                </div>
-
-                <div class="section-footer">
-                    <button class="btn btn-outline btn-lg">Ver Todos os Leilões</button>
-                </div>
-            </div>
-        </section>
-
-        <!-- Subcategories Carousel -->
-        <section class="subcategories">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title text-white">Subcategorias em Destaque</h2>
-                    <p class="section-subtitle text-white">
-                        Explore nossas subcategorias especializadas com produtos cuidadosamente selecionados
-                    </p>
-                </div>
-
-            </div>
-        </section>
-
-        <!-- How It Works -->
-        <section id="como-funciona" class="how-it-works">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Como Funciona</h2>
-                    <p class="section-subtitle">
-                        Participe dos nossos leilões premium de forma simples e segura em apenas 4 passos
-                    </p>
-                </div>
-
-                <div class="steps-grid">
-                    <div class="step-card card-hover">
-                        <div class="step-number">01</div>
-                        <div class="step-icon">
-                            <i data-lucide="user-plus"></i>
-                        </div>
-                        <h3 class="step-title">Cadastre-se</h3>
-                        <p class="step-description">
-                            Crie sua conta gratuita em poucos minutos e tenha acesso a todos os leilões premium
-                        </p>
-                    </div>
-
-                    <div class="step-card card-hover">
-                        <div class="step-number">02</div>
-                        <div class="step-icon">
-                            <i data-lucide="search"></i>
-                        </div>
-                        <h3 class="step-title">Escolha um Leilão</h3>
-                        <p class="step-description">
-                            Navegue pelas categorias e encontre produtos únicos que despertam seu interesse
-                        </p>
-                    </div>
-
-                    <div class="step-card card-hover">
-                        <div class="step-number">03</div>
-                        <div class="step-icon">
-                            <i data-lucide="gavel"></i>
-                        </div>
-                        <h3 class="step-title">Dê seu Lance</h3>
-                        <p class="step-description">
-                            Participe ativamente dos leilões com lances seguros e acompanhe em tempo real
-                        </p>
-                    </div>
-
-                    <div class="step-card card-hover">
-                        <div class="step-number">04</div>
-                        <div class="step-icon">
-                            <i data-lucide="shield-check"></i>
-                        </div>
-                        <h3 class="step-title">Ganhe com Segurança</h3>
-                        <p class="step-description">
-                            Receba seu produto com total segurança através de nosso sistema de pagamento protegido
-                        </p>
-                    </div>
-                </div>
-
-                <div class="section-footer">
-                    <p class="help-text">Ainda tem dúvidas? Nossa equipe está pronta para ajudar</p>
-                    <div class="help-text">
-                        <a href="#contato" class="btn btn-primary">Entre em Contato</a>
-                        <a href="#sobre-nos" class="btn btn-outline">Saiba Mais</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- About Us -->
-        <section id="sobre-nos" class="about-us">
-            <div class="container">
-                <div class="about-content">
-                    <div class="about-text">
-                        <h2 class="section-title">Sobre o Leilão Premium</h2>
-
-                        <p class="about-paragraph">
-                            Somos a plataforma líder em leilões online premium no Brasil, conectando colecionadores,
-                            investidores e entusiastas aos produtos mais exclusivos e desejados do mercado.
-                        </p>
-
-                        <p class="about-paragraph">
-                            Nossa missão é democratizar o acesso a itens únicos e valiosos, proporcionando uma
-                            experiência de leilão segura, transparente e emocionante para todos os participantes.
-                        </p>
-
-                        <div class="about-stats">
-                            <div class="about-stat">
-                                <div class="about-stat-number">2018</div>
-                                <div class="about-stat-label">Fundação</div>
-                            </div>
-                            <div class="about-stat">
-                                <div class="about-stat-number">R$ 2B+</div>
-                                <div class="about-stat-label">Vendas</div>
-                            </div>
-                            <div class="about-stat">
-                                <div class="about-stat-number">50K+</div>
-                                <div class="about-stat-label">Usuários</div>
-                            </div>
-                            <div class="about-stat">
-                                <div class="about-stat-number">99.8%</div>
-                                <div class="about-stat-label">Satisfação</div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="about-features">
-                        <div class="features-grid">
-                            <div class="feature-card card-hover">
-                                <div class="feature-icon">
-                                    <i data-lucide="shield"></i>
-                                </div>
-                                <h3 class="feature-title">Máxima Segurança</h3>
-                                <p class="feature-description">
-                                    Transações protegidas com os mais altos padrões de segurança digital
-                                </p>
-                            </div>
-
-                            <div class="feature-card card-hover">
-                                <div class="feature-icon">
-                                    <i data-lucide="award"></i>
-                                </div>
-                                <h3 class="feature-title">Produtos Autenticados</h3>
-                                <p class="feature-description">
-                                    Todos os itens passam por rigorosa verificação e autenticação
-                                </p>
-                            </div>
-
-                            <div class="feature-card card-hover">
-                                <div class="feature-icon">
-                                    <i data-lucide="users"></i>
-                                </div>
-                                <h3 class="feature-title">Comunidade Premium</h3>
-                                <p class="feature-description">
-                                    Mais de 50.000 usuários ativos em nossa plataforma exclusiva
-                                </p>
-                            </div>
-
-                            <div class="feature-card card-hover">
-                                <div class="feature-icon">
-                                    <i data-lucide="clock"></i>
-                                </div>
-                                <h3 class="feature-title">Suporte 24/7</h3>
-                                <p class="feature-description">
-                                    Atendimento especializado disponível a qualquer hora do dia
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="trust-card">
-                            <h3 class="trust-title">Confie na nossa expertise</h3>
-                            <p class="trust-description">
-                                Mais de 6 anos conectando pessoas aos produtos dos seus sonhos com total segurança e
-                                transparência.
-                            </p>
-                            <div class="trust-stats">
-                                <div class="trust-stat">
-                                    <div class="trust-stat-value">A+</div>
-                                    <div class="trust-stat-label">Rating</div>
-                                </div>
-                                <div class="trust-stat">
-                                    <div class="trust-stat-value">100%</div>
-                                    <div class="trust-stat-label">Seguro</div>
-                                </div>
-                                <div class="trust-stat">
-                                    <div class="trust-stat-value">24/7</div>
-                                    <div class="trust-stat-label">Suporte</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </section>
     </main>
@@ -579,8 +344,8 @@
     <div id="toastContainer" class="toast-container"></div>
 
     <!-- JavaScript -->
-    <script src="script.js"></script>
-    <script src="featuredLots.js"></script>
+    <script src="../../script.js"></script>
+    <script src="../../featuredLots.js"></script>
 </body>
 
 </html>
